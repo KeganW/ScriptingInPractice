@@ -44,7 +44,10 @@ elif [[ ! `ls "$USERPATH"/ 2>/dev/null | grep -w "$FILE"` ]]
   exit 1
 
 #check for correct file type
-elif [[ "$FILE" = *".txt" ]] || [[ "$FILE" = *".java" ]] || [[ "$FILE" = *".c" ]] || [[ "$FILE" = *".cpp" ]] || [[ "$FILE" = *".h" ]] || [[ "$FILE" = *".hpp" ]] || [[ "$FILE" = *".cc" ]]
+elif [[ "$FILE" = *".txt" ]] || [[ "$FILE" = *".java" ]] || 
+       [[ "$FILE" = *".c" ]] || [[ "$FILE" = *".cpp" ]] || 
+         [[ "$FILE" = *".h" ]] || [[ "$FILE" = *".hpp" ]] || 
+           [[ "$FILE" = *".cc" ]]
   then
   `ex -sc '1i|/*
  * Name: Kegan Wong
