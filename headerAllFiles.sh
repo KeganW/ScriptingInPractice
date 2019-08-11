@@ -12,7 +12,7 @@ USERPATH=$2
 #error messages
 EMPTY_DIRECTORY="Directory does not contain any files."
 BAD_PATH="Invalid path or directory provided."
-FORM="Form: ./args DIRECTORY PATH."
+FORM="Form: ./headerAllFiles.sh DIRECTORY PATH."
 NUM_ARGS="Invalid number of arguments."
 SOLVE_ERROR="Check by entering pwd in the appropriate folder."
 WRONG_FILE="This program makes headers for only java, c++ and c."
