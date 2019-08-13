@@ -7,7 +7,7 @@
 #Error messages.
 NUM_ARGS="Invalid number of arguments."
 FORM="./count.sh path1 path2"
-EXAMPLE="./compareFiles.sh ~/Desktop/Project/example.txt ~/Desktop/Food/mayo.txt
+EXAMPLE="./compareFiles.sh ~/Desktop/Project/example.txt ~/Desktop/Food/mayo.txt"
 BAD_PATH="Invalid path(s) provided."
 
 #Obtain arguments from script.
