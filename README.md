@@ -7,3 +7,6 @@ PURPOSE: Feel free to use these scripting projects to generate headers for singl
 sort the size of files in a given directory (compare file sizes in a neat, readable format), and compare 
 numeric quantities of a symbol or sequence of characters between two files. For instance, if you want to 
 compare the number of ">" in the solution's output vs your output (contains specific details as well).
+
+MORE: Read each script carefully. The top explains the parameters to pass in the bash script. You are
+more than welcome to change the scripts to fit your needs or desired format.
