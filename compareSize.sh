@@ -6,8 +6,8 @@
 
 #Error messages.
 NUM_ARGS="Invalid number of arguments."
-FORM="./count.sh path1"
-EXAMPLE="./compareFiles.sh ~/Desktop/Projects/"
+FORM="./compareSize.sh path1"
+EXAMPLE="./compareSize.sh ~/Desktop/Projects/"
 BAD_PATH="Invalid path provided."
 
 #Obtain arguments from script.
