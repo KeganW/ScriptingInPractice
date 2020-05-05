@@ -13,7 +13,7 @@ USERPATH=$3
 #error messages
 BAD_FILE="File does not exist."
 BAD_PATH="Invalid path or directory provided."
-FORM="Form: ./headerSingleFile.sh DIRECTORY FILE PATH."
+FORM="Form: ./headerSingleFile.sh DIRECTORY FILE PATH{EXCLUDING FILE}"
 NUM_ARGS="Invalid number of arguments."
 SOLVE_ERROR="Check by entering pwd in the appropriate folder."
 WRONG_FILE="This program makes headers for only java, c++ and c."
